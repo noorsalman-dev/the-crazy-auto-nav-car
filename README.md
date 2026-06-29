@@ -1,7 +1,7 @@
 # the-crazy-auto-nav-car
 I’m building "AutoNav," a custom autonomous car robot. Rather than buying a pre-made kit,. The robot uses ultrasonic sensors for obstacle avoidance,and it has a pump to make you wet, it also has two big boxes to put your things on it to delevar,it has also a catapult to shoot balls on peaples, and LEDs to display its status.
-## playable link
-- [the car](https://cad.onshape.com/documents/101088fbb181d6fa3db5e591/w/d4ede1e8a9e5c1679c16fb7a/e/c8f4956e9859854f74fab2c2?renderMode=0&uiState=6a421e5559c2af48777dfea2)
+
+  
 ## Bill of Materials (BOM)
 | Part Name | Quantity | Purpose | Link |
 | :--- | :--- | :--- | :--- |
