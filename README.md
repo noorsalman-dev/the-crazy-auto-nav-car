@@ -17,6 +17,17 @@ I’m building "AutoNav," a custom  car robot,. The robot uses ultrasonic sensor
 | 2S Lipo Battary | 1 | the main parts battary | [ammazon](https://www.amazon.com/RadioMaster-Transmitter-Battery-Boxer-TX16S/dp/B0C69SXDWV?crid=2NBK52PXHLXCG&dib=eyJ2IjoiMSJ9._nN40oUpkoT5T7pElkorqzp9YGZUv06qOt-DtUpnzbP8yJDktYBq6l7Fs-s1IgB3lAdScpZYyWcMZE3F0PWXQSzXgv8v0Th7XjOvZgxAuh23_Qxo8vyE5IXhbkJuUH0V6oHGYjypES8ot-jYD09kzW-WOOKme6AIH9Gk4FdapniZeM8O-ODrR9yitNtxbyyk2Kt5XRNMc9DL67_sXgoserUWPh439Es5XdTMegQLQHf7bfG6j4Zh3MEtsO2BcN5ppCcUIBLqK1fy8Yo5nIIBHVtq-RIpoaYnhuGTwaVbvVE.wS2FOanOVV8OlnPqLlJySQM7_LaWFJ5lgZY0AwWQ3Mc&dib_tag=se&keywords=2s+lipo+battery&qid=1782670169&sprefix=2s%2Caps%2C401&sr=8-2) |
 | Caster Wheel | 1 | all ways wheels | [ammazon](https://www.amazon.com/MARRTEUM-Rotation-Universal-Adhesive-Furniture/dp/B0CKYYKPGD?crid=2N0900MCH9J9O&dib=eyJ2IjoiMSJ9.y-OoR7KOAVeCxwLjH9Hm-_cyqZ-J3R6KzO_on2dh3dlJaeU9DW9nhsVL1zq2VGwXIQZCHVsoybMK_j6S9iJIbJDf3hkrr6cK_RZsBhhW4dbaj-MBhWFW2VtiLu-9QLnX2ivlwtIQ6waVudnNUbek2KG34u7H5CEPWqNPcRIgh5qLhr6arCS2zXOnt0_huzvJz87fMeLILK7JYDDhFHsXd95OzXjbHjgpZ-E4O7xmF-U.mzCdX2j8cOK10XL-CB_Xx3OGeEpMsAiVCa9DeCbXKIw&dib_tag=se&keywords=metal%2Bball%2Bcaster%2Bwheel&qid=1782670382&sprefix=metal%2B%2Bball%2Bcaster%2Caps%2C353&sr=8-1&th=1)
 
+# Cost & Component Justification
+
+## No Pre-built Modules Justification
+The "AutoNav Car Robot" is a completely custom-designed project built from raw components, not a pre-made kit. 
+
+Here is the justification for the core components:
+* **Raspberry Pi Pico:** Used as the base microcontroller unit (MCU). It is programmed from scratch using custom code to handle obstacle avoidance, the catapult mechanism, and pump controls. It acts as the raw brain, not a pre-assembled robotic kit.
+* **DRV8833 Motor Driver:** Used as a raw H-bridge integrated circuit module to control the DC motors safely. Designing a custom discrete MOSFET H-bridge circuit would exceed the scope of safe battery operation for this custom chassis.
+
+All mechanical chassis parts, catapult structures, and component holders are completely custom 3D printed and designed on Onshape by me.
+
 
 <img width="1410" height="853" alt="Screenshot from 2026-06-25 15-57-36" src="https://github.com/user-attachments/assets/4415c5a9-354e-4275-b031-e7dc367f9db1" />
 
